@@ -18,6 +18,6 @@ resource "aws_instance" "app_server" {
   instance_type = "t2.micro"
   key_name = "IAC-Alura"
   tags = {
-    Name = "Terraform Ansible Python"
+    Name = "Terraform Ansible Python 01"
   }
 }
